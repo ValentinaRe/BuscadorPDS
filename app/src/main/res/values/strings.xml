@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BuscadorPDS</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelBusquedaSimple">Busqueda Simple</string>
+    <string name="labelBusquedaAvanzada">Busqueda Avanzada</string>
+    <string name="labelEnviar">Buscar</string>
+    <string name="labelHintSimple">ingrese cadena de busqueda</string>
+</resources>
