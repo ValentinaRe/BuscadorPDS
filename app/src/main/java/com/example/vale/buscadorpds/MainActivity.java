@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
         Button btn_main_avanzada=(Button) findViewById(R.id.btn_avan);{
-<<<<<<< HEAD
+
             btn_main_avanzada.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public  void onClick(View view){
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intentActivityAvanz);
                 }
             });
-=======
+
         btn_main_avanzada.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View view){
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentActivityAvanz);
             }
         });
->>>>>>> origin/master
+
     }
 
     }

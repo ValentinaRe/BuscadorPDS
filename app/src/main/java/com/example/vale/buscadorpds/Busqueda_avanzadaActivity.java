@@ -62,7 +62,7 @@ public class Busqueda_avanzadaActivity extends AppCompatActivity {
         editTextTelefono = (EditText) findViewById(R.id.editTextTelefono);
         editTextPais = (EditText) findViewById(R.id.editTextPais);
         editTextRegion = (EditText) findViewById(R.id.editTextRegion);
-        editTextCiudad = (EditText) findViewById(R.id.editTextCiudad);
+       // editTextCiudad = (EditText) findViewById(R.id.editTextCiudad);
 
         textViewResultadoAva = (TextView) findViewById(R.id.textViewRaw);
         btn_enviar_avan = (Button) findViewById(R.id.btn_enviarAvan);
