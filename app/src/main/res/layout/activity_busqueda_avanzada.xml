@@ -12,10 +12,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/labelBusquedaAvanzada"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/labelBusquedaAvanzada" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Run"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/editTextRun"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -23,42 +33,77 @@
         android:id="@+id/editTextRun"
         android:hint="@string/labelHintBusquedaAvanzadaRrun"
         android:layout_below="@+id/textView"
-        android:layout_alignRight="@+id/editTextTelefono"
-        android:layout_alignEnd="@+id/editTextTelefono" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextNombre"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
         android:hint="@string/labelHintBusquedaAvanzadanombre"
-        android:layout_below="@+id/editTextRun"
-        android:layout_alignLeft="@+id/editTextRun"
-        android:layout_alignStart="@+id/editTextRun" />
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/editTextNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextApellido"
-        android:hint="@string/labelHintBusquedaAvanzadaapellido"
         android:layout_below="@+id/editTextNombre"
-        android:layout_alignLeft="@+id/editTextCiudad"
-        android:layout_alignStart="@+id/editTextCiudad" />
+        android:layout_alignLeft="@+id/editTextNombre"
+        android:layout_alignStart="@+id/editTextNombre"
+        android:hint="@string/labelHintBusquedaAvanzadaapellido" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/editTextApellido"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextMail"
-        android:hint="@string/labelHintBusquedaAvanzadamail"
         android:layout_below="@+id/editTextApellido"
         android:layout_alignLeft="@+id/editTextApellido"
-        android:layout_alignStart="@+id/editTextApellido" />
+        android:layout_alignStart="@+id/editTextApellido"
+        android:hint="@string/labelHintBusquedaAvanzadamail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/editTextMail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextTelefono"
-        android:hint="@string/labelHintBusquedaAvanzadatelefono"
         android:layout_below="@+id/editTextMail"
+        android:layout_alignLeft="@+id/editTextMail"
+        android:layout_alignStart="@+id/editTextMail"
+        android:hint="@string/labelHintBusquedaAvanzadatelefono" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/editTextTelefono"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -66,43 +111,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextPais"
-        android:hint="@string/labelHintBusquedaAvanzadapais"
         android:layout_below="@+id/editTextTelefono"
-        android:layout_alignRight="@+id/editTextRun"
-        android:layout_alignEnd="@+id/editTextRun" />
+        android:layout_alignLeft="@+id/editTextTelefono"
+        android:layout_alignStart="@+id/editTextTelefono"
+        android:hint="@string/labelHintBusquedaAvanzadapais" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="País"
+        android:id="@+id/textView7"
+        android:layout_alignBottom="@+id/editTextPais"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editTextRegion"
-        android:hint="@string/labelHintBusquedaAvanzadaregion"
         android:layout_below="@+id/editTextPais"
-        android:layout_alignRight="@+id/editTextPais"
-        android:layout_alignEnd="@+id/editTextPais" />
+        android:layout_alignLeft="@+id/editTextPais"
+        android:layout_alignStart="@+id/editTextPais"
+        android:hint="@string/labelHintBusquedaAvanzadaregion" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextCiudad"
-        android:hint="@string/labelHintBusquedaAvanzadaciudad"
-        android:layout_below="@+id/editTextRegion"
-        android:layout_alignRight="@+id/editTextTelefono"
-        android:layout_alignEnd="@+id/editTextTelefono" />
+        android:text="Región"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/editTextRegion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/labelEnviar"
         android:id="@+id/btn_enviarAvan"
-        android:layout_below="@+id/editTextCiudad"
-        android:layout_alignLeft="@+id/editTextPais"
-        android:layout_alignStart="@+id/editTextPais" />
+        android:layout_below="@+id/editTextRegion"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textViewRaw"
-        android:layout_alignParentBottom="true" />
-
-
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+       />
 </RelativeLayout>

@@ -5,6 +5,7 @@
     <string name="labelBusquedaAvanzada">Busqueda Avanzada</string>
     <string name="labelEnviar">Buscar</string>
     <string name="labelHintSimple">ingrese cadena de busqueda</string>
+
     <string name="labelHintBusquedaAvanzadaRrun">ingrese Run</string>
     <string name="labelHintBusquedaAvanzadanombre">ingrese Nombre</string>
     <string name="labelHintBusquedaAvanzadaapellido">ingrese Apellido</string>
@@ -13,4 +14,5 @@
     <string name="labelHintBusquedaAvanzadapais">ingrese País</string>
     <string name="labelHintBusquedaAvanzadaregion">ingrese Región</string>
     <string name="labelHintBusquedaAvanzadaciudad">ingrese Ciudad</string>
+
 </resources>
