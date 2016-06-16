@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Busqueda_simpleActivity" />
+        <activity android:name=".Ver_perfil_activity"></activity>
         <activity android:name=".Busqueda_avanzadaActivity"></activity>
     </application>
 
